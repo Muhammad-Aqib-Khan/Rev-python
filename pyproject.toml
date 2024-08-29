@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "rev python"
+version = "0.1.0"
+description = ""
+authors = ["Muhammad-Aqib-khan <raiaqibkhan545@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mypy = "^1.11.2"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+pandas = "^2.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.11.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
